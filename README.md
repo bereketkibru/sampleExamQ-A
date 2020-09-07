@@ -46,11 +46,11 @@ The pattern attribute works with the following input types: text, date, search, 
 ___
 ## QUESTION 73
 You develop a webpage by using HTML5. You create the following markup and code: (Line numbers are included for reference only.)
-![sample code](./img/73.png)
+![sample code](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/73.PNG)
 You need to ensure that the values that users enter are only numbers, letters, and underscores, regardless of the order.
 
 Which code segment should you insert at line 04?
-![choices](./img/73c.png)
+![choices](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/73c.PNG)
 ## Answer A
 ## Explanation
 >let see the syntax used on each regexp
