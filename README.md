@@ -72,4 +72,20 @@ To get a string contains only letters (both uppercase or lowercase)  numbers, an
  Next the match() method of string object is used to match the said regular expression against the input value.
  ___
 
-  
+ ## QUESTION 74
+You are creating an HTML5 application that allows users to play video on a page by using the VIDEO element.
+You need to enable the user to start, stop, and pause the video.
+Which line of code should you add to the page?
+1. `<video id= "myVideo" height="320" width="400" src="myVideo.vtt" contextmenu="pauseplay"> </video>`
+2. `<video id="myVideon height"="320" width="400" src="myVideo.vtt" controls> </video>`
+3. `<video _d="myVideon height="320" width="400" src="myVideo.vtt" autoplay> </video>`
+4. `<video id="myVideo" height="320" width="400" src="myVideo.vtt" contextinenu="Startstopn> </video>`
+## Answer B
+## Explanation
+The HTML `<video>` 
+
+Element To show a video in HTML, use the `<video>` element:
+
+The __controls__ attribute adds video controls, like play, pause, and volume
+
+___
