@@ -1,6 +1,4 @@
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-</style>
+
 # SampleExamQ-A
 
 ## QUESTION 70
@@ -259,6 +257,11 @@ NOTE: Each correct selection is worth one point.
 ## Answer B & C
 ## Explanation 
 > css() :-Sets or returns one or more style properties for selected elements
-. class selector
+* . class selector
 
-\# id selector
+* \# id selector
+___
+
+<style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style>
