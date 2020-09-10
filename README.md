@@ -40,6 +40,7 @@ You must style the table to look like the following image:
 
 You need to implement the CSS selectors to select the rows that must have a blue background.
 Which CSS selector should you use?
+
 A. thead:only-child, tbody:after, table:before
 
 B. tr [line |-0, 1, 3]
@@ -70,6 +71,7 @@ A. Add the following attribute to the input tag: value="https://"
 B. Add the following attribute to the input tag: pattern="https://.+"
 
 c. Add the following attribute to the input tag: value="ssl"
+
 D. Add the following attribute to the input tag: itemtype="secure"
 ## Answer B
 ## Explanation
