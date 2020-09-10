@@ -26,6 +26,29 @@ An article should make sense on its own, and it should be possible to distribute
 * Newspaper article
 ___
 
+# QUESTION 71
+You develop an HTML application that contains a table that displays a list of products. The table is defined with the following HTML markup:
+
+![sample code](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/71q1.PNG)
+
+You must style the table to look like the following image:
+
+![sample code](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/71q2.PNG)
+
+You need to implement the CSS selectors to select the rows that must have a blue background.
+Which CSS selector should you use?
+1. thead:only-child, tbody:after, table:before
+2. tr [line |-0, 1, 3]
+3. tr:first-of-type, tr:last-of-type
+4. tr:first-line, tr:last-child
+
+## Answer C
+## Explanation
+
+>The :first-of-type selector matches every element that is the first child, of a particular type, of its parent.
+
+>The :last-of-type selector matches every element that is the last child, of a particular type, of its parent.
+___
 ## QUESTION 72
 You develop a webpage by using HTML5. You create the following markup:
 
