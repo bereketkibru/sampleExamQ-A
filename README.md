@@ -155,8 +155,8 @@ The page includes the following JavaScript code:
 var selectedValues='';
 >You have the following requirements:
 
-  *Retrieve the content for any OPTION elements when the value of the selected attribute equals selected.
-  *Add the content to a comma separated string.
+  * Retrieve the content for any OPTION elements when the value of the selected attribute equals selected.
+  * Add the content to a comma separated string.
 
 You need to retrieve the required data.
 
@@ -174,12 +174,12 @@ Select all checked elements (checkboxes or radio buttons):
 
 >:selected->
 
-*Select the pre-selected item(s) in a drop-down list:
-*The :selected selector selects option elements that are pre-selected.
+* Select the pre-selected item(s) in a drop-down list:
+* The :selected selector selects option elements that are pre-selected.
 
 >we can use different ways to address the options elements 
-  *select options:selected
-  *#loanTypes options:selected
+  * select options:selected
+  * #loanTypes options:selected
 >Then the each function loop over the values genereted by the selector not loanTypes.
 ___
 
