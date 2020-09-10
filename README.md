@@ -201,3 +201,41 @@ Which HTML element should you use?
 The characters in a password field are masked (shown as asterisks or circles)
 
 The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.
+___
+
+## QUESTION 78
+
+You are developing an HTML5 web application that displays stock information.
+The application loads information from a web service by using AJAX.
+The following code defines a Stock object and loads stock data.
+
+![sample code](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/78q.PNG)
+
+You need to implement the loadStock function.
+Which code segment should you use?
+![choices](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/78c.PNG)
+## Answer A
+Not clear for me?
+
+___
+
+# QUESTION 79
+You are developing a web page that includes the following HTML
+
+`<span id="myTextSpan" class="redText">Hello There!</span>`
+
+The font color of text inside the span must be red.
+
+You need to develop the web page to meet the requirement.
+
+Which two code segments achieve the goal? Each correct answer presents a complete solution.
+
+NOTE: Each correct selection is worth one point.
+
+![choices](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/79c.PNG)
+## Answer B & C
+## Explanation 
+> css() :-Sets or returns one or more style properties for selected elements
+. class selector
+
+\# id selector
