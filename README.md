@@ -68,7 +68,7 @@ Which code segment should you insert at line 04?
 * /d : matches any digit character
 * /S : matches any non-whitespace characters
 
-To get a string contains only letters (both uppercase or lowercase)  numbers, and underscores, regardless of the order we use a regular expression  (/^[A-Za-z0-9_]+$/).
+>To get a string contains only letters (both uppercase or lowercase)  numbers, and underscores, regardless of the order we use a regular expression  (/^[A-Za-z0-9_]+$/).
  Next the match() method of string object is used to match the said regular expression against the input value.
  ___
 
@@ -84,8 +84,65 @@ Which line of code should you add to the page?
 ## Explanation
 The HTML `<video>` 
 
-Element To show a video in HTML, use the `<video>` element:
+>Element To show a video in HTML, use the `<video>` element:
 
-The __controls__ attribute adds video controls, like play, pause, and volume
+>The __controls__ attribute adds video controls, like play, pause, and volume
 
 ___
+## QUESTION 75
+You are creating a web page that contains a canvas with text.
+The page contains the following JavaScript code. 
+
+var canvas = document.getElementById("myCanvas");
+
+var context = canvas.getContext("2d");
+
+The text on the canvas must rotate 90 degrees when a user clicks a button on the page.
+
+You need to ensure that the text rotates when the user clicks the button.
+Which line of code should you add at line 03?
+1. context.transform(90);
+2. context.content.getRotation(90);
+3. context.rotate(90);
+4. context.content.rotate (90);
+## Answer B
+## Explanation
+>The `<canvas>` tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+>The `<canvas>` tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.
+
+### Draw on the Canvas With JavaScript 
+
+#### Step 1: Find the Canvas Element
+
+First of all, you must find the `<canvas>` element.
+
+This is done by using the HTML DOM method getElementById():
+```javascript
+var canvas = document.getElementById("myCanvas");
+```
+#### Step 2: Create a Drawing Object
+
+Secondly, you need a drawing object for the canvas.
+
+The getContext() is a built-in HTML object, with properties and methods for drawing:
+
+```javascript
+var context = canvas.getContext("2d");
+```
+
+#### Transformations
+
+The __rotate()__ method rotates the current drawing.
+
+Note: The rotation will only affect drawings made AFTER the rotation is done.
+
+>JavaScript syntax:	  context.rotate(angle);
+
+>*To calculate from degrees to radians: degrees*Math.PI/180.
+Example: to rotate 5 degrees, specify the following: 5*Math.PI/180*
+
+The __transform()__ method replaces the current transformation matrix. It multiplies the current transformation matrix with the matrix described 
+>JavaScript syntax:	context.transform(a,b,c,d,e,f);
+
+>The transform() method behaves relatively to other transformations made by rotate(), scale(), translate(), or transform(). Example: If you already have set your drawing to scale by two, and the transform() method scales your drawings by two, your drawings will now scale by four.
