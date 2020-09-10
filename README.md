@@ -5,10 +5,15 @@
 You are modifying a blog site to improve search engine readability.
 You need to group relevant page content together to maximize search engine readability.
 Which tag should you use?
-1. `<article>`
-2. `<span>`
-3. `<tbody>`
-4. `<cd>`
+
+A. `<article>`
+
+B. `<span>`
+
+C. `<tbody>`
+
+D. `<cd>`
+
 ## Answer A
 ## Explanation
    The `<article>` tag allows to mark separate entries in an online publication, such as a blog or a magazine. It is expected that when articles are marked with the `<article>` tag, this will make the HTML code cleaner because it will reduce the need to use `<div>` tags. Also, probably search engines will put more weight on the text inside the `<article>` tag as compared to the contents on the other parts of the page.
@@ -35,10 +40,14 @@ You must style the table to look like the following image:
 
 You need to implement the CSS selectors to select the rows that must have a blue background.
 Which CSS selector should you use?
-1. thead:only-child, tbody:after, table:before
-2. tr [line |-0, 1, 3]
-3. tr:first-of-type, tr:last-of-type
-4. tr:first-line, tr:last-child
+A. thead:only-child, tbody:after, table:before
+
+B. tr [line |-0, 1, 3]
+
+C. tr:first-of-type, tr:last-of-type
+
+D. tr:first-line, tr:last-child
+
 
 ## Answer C
 ## Explanation
@@ -55,10 +64,13 @@ You develop a webpage by using HTML5. You create the following markup:
 You need to ensure that the value that the user enters contains a secure URL.
 
 What should you do?
-1. Add the following attribute to the input tag: value="https://"
-2. Add the following attribute to the input tag: pattern="https://.+"
-3. Add the following attribute to the input tag: value="ssl"
-4. Add the following attribute to the input tag: itemtype="secure"
+
+A. Add the following attribute to the input tag: value="https://"
+
+B. Add the following attribute to the input tag: pattern="https://.+"
+
+c. Add the following attribute to the input tag: value="ssl"
+D. Add the following attribute to the input tag: itemtype="secure"
 ## Answer B
 ## Explanation
 >The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted.
@@ -97,10 +109,14 @@ Which code segment should you insert at line 04?
 You are creating an HTML5 application that allows users to play video on a page by using the VIDEO element.
 You need to enable the user to start, stop, and pause the video.
 Which line of code should you add to the page?
-1. `<video id= "myVideo" height="320" width="400" src="myVideo.vtt" contextmenu="pauseplay"> </video>`
-2. `<video id="myVideon height"="320" width="400" src="myVideo.vtt" controls> </video>`
-3. `<video _d="myVideon height="320" width="400" src="myVideo.vtt" autoplay> </video>`
-4. `<video id="myVideo" height="320" width="400" src="myVideo.vtt" contextinenu="Startstopn> </video>`
+
+A. `<video id= "myVideo" height="320" width="400" src="myVideo.vtt" contextmenu="pauseplay"> </video>`
+
+B. `<video id="myVideon height"="320" width="400" src="myVideo.vtt" controls> </video>`
+
+C. `<video _d="myVideon height="320" width="400" src="myVideo.vtt" autoplay> </video>`
+
+D. `<video id="myVideo" height="320" width="400" src="myVideo.vtt" contextinenu="Startstopn> </video>`
 ## Answer B
 ## Explanation
 The HTML `<video>` 
@@ -122,10 +138,14 @@ The text on the canvas must rotate 90 degrees when a user clicks a button on the
 
 You need to ensure that the text rotates when the user clicks the button.
 Which line of code should you add at line 03?
-1. context.transform(90);
-2. context.content.getRotation(90);
-3. context.rotate(90);
-4. context.content.rotate (90);
+
+A. context.transform(90);
+
+B. context.content.getRotation(90);
+
+C. context.rotate(90);
+
+D. context.content.rotate (90);
 ## Answer B
 ## Explanation
 >The `<canvas>` tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
