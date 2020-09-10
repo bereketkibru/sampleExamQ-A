@@ -151,7 +151,9 @@ ___
 ## QUESTION 76
 You develop an HTML5 webpage that contains the following HTML markup:
 ![sample code](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/76q.PNG)
+
 The page includes the following JavaScript code:
+
 var selectedValues='';
 >You have the following requirements:
 
@@ -183,3 +185,19 @@ Select all checked elements (checkboxes or radio buttons):
 >Then the each function loop over the values genereted by the selector not loanTypes.
 ___
 
+## QUESTION 77
+You develop an HTML5 application. You give users a numeric access code that can be used only one time.
+Users must enter the numeric access code in the login form of the application. 
+The numeric characters must be hidden by a __masking character__.
+
+You need to implement the form element for users to enter the code.
+
+Which HTML element should you use?
+![choices](https://github.com/bereketkibru/sampleExamQ-A/blob/master/img/77c.PNG)
+
+## Answer A
+## Explanation
+
+The characters in a password field are masked (shown as asterisks or circles)
+
+The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.
